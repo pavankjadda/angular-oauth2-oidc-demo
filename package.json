@@ -1,0 +1,30 @@
+{
+  "name": "angular-oauth2-oidc-demo",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "NG_HMR_TEMPLATES=0 ng serve --watch --hmr --ssl=true --ssl-cert ~/localhost.pem --ssl-key ~/localhost-key.pem",
+    "build": "ng build",
+    "format": "prettier --write \"src/**/*.{ts,html,css}\""
+  },
+  "dependencies": {
+    "@angular/animations": "^19.0.6",
+    "@angular/common": "^19.0.6",
+    "@angular/compiler": "^19.0.6",
+    "@angular/core": "^19.0.6",
+    "@angular/forms": "^19.0.6",
+    "@angular/platform-browser": "^19.0.6",
+    "@angular/router": "^19.0.6",
+    "angular-oauth2-oidc": "^19.0.0",
+    "rxjs": "^7.8.1",
+    "tslib": "^2.5.0",
+    "zone.js": "~0.14.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.0.6",
+    "@angular/cli": "^19.0.6",
+    "@angular/compiler-cli": "^19.0.6",
+    "prettier": "^3.2.5",
+    "typescript": "~5.5.0"
+  }
+}
